@@ -1,0 +1,65 @@
+/* 1. Fundo da página com cor suave */
+body {
+    background-color: #f0f8ff; /* Azul bem clarinho */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* 2. Título com cor diferente e centralizado */
+h1 {
+    color: #4b0082; /* Roxo escuro */
+    text-align: center;
+}
+
+/* 3. Parágrafo com fonte maior e justificado */
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* 4. Lista com espaçamento maior entre os itens */
+ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* 5. Imagem com bordas arredondadas e tamanho adequado */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 300px; /* Tamanho fixo */
+}
+
+/* 6. Tabela estilizada */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 7. Link muda de cor ao passar o mouse */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #0000cd; /* Azul forte */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500; /* Laranja forte */
+}
