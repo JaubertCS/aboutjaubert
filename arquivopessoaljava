@@ -1,0 +1,5 @@
+
+function mostrarMensagem() {
+    const mensagem = document.getElementById('mensagem');
+    mensagem.innerText = "Seja bem-vindo(a)! Continue sempre buscando seus sonhos! ✨";
+}
